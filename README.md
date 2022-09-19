@@ -35,6 +35,7 @@ RUN apt install –y apache2-utils
 RUN apt clean 
 EXPOSE 80
 CMD [“apache2ctl”, “-D”, “FOREGROUND”]
+
 To exit the editor, press ESC then :<wq! then Enter.
 
 Step 3: Tag and build the Docker image
